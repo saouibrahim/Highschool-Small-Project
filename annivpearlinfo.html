@@ -1,0 +1,180 @@
+
+
+<!Doctype html>
+
+<html lang="fr">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>Inscription pour L'Anniversaire de Pearl</title>
+
+		<link rel="stylesheet" href="css/style.css">
+
+		<h1>Inscription pour L'Anniveersaire de Pearl</h1>
+
+	</head>
+
+
+
+	<body>
+        <p padding: 10px >Click on the Image</p>
+		<figure><img src="img/pearl.png"></figure>
+
+        <script src="js/script.js" async></script>
+
+	   <!--Création de mon formulaire-->
+
+		<form action="confirmation.php" method="POST" class="form-group" name="formSaisie">
+
+        
+
+			<table>
+
+				<tbody>
+
+                <tr>  <!--Champ de saisie-->
+
+                    <td>NOM</td>
+
+                    <td><input type="text" name="TNOM" id="idNOM" required></td>
+
+                </tr>
+
+                <tr>  <!--Champ de saisie-->
+
+                    <td>Prenom</td>
+
+                    <td><input type="text" name="TPrenom" id="idPrenom" required></td>
+
+                </tr>
+
+                <tr>  <!--Boutons radio-->
+
+					<td>Genre</td>
+
+                    <td><input type="radio" class="custom-radio" name="opt0" id="idHomme"> Homme</td>
+
+                    <td><input type="radio" class="custom-radio" name="opt1" id="idFemale"> Female</td>
+
+                </tr>
+
+				<tr>  <!--Champ de saisie-->
+
+                    <td>Adresse</td>
+
+                    <td><input type="text" name="TAdresse" id="idAdresse" required></td>
+
+                </tr>
+
+				<tr>  <!--Champ de saisie-->
+
+                    <td>Code Postal</td>
+
+                    <td><input type="text" name="TCodePostal" id="idCodePostal" required></td>
+
+                </tr>
+
+				<tr>  <!--Champ de saisie-->
+
+                    <td>Ville</td>
+
+                    <td><input type="text" name="TVille" id="idVille" required></td>
+
+                </tr>
+
+				<tr>  <!--Champ de saisie-->
+
+                    <td>Telephone</td>
+
+                    <td><input type="text" name="TTelephone" id="idTelephone" required></td>
+
+                </tr>
+
+				<tr>  <!--Champ de saisie-->
+
+                    <td>Email</td>
+
+                    <td><input type="text" name="Temail" id="idemail" required></td>
+
+                </tr>
+
+                <tr>  <!--Saisie le Temps---->
+
+					<td>Heure D'Arrivee</td>
+
+					<td><input type="time" id="idHeureDA" name="appt0" >
+
+                </tr>
+
+				<tr>  <!--Saisie le Temps-->
+
+					<td>Heure De Depart</td>
+
+					<td><input type="time" id="idHeureDD" name="appt1" >
+
+                </tr>
+
+				<tr>  <!--Boutons radio-->
+
+                      <td>Dort sur Place</td>
+
+                   <td><input type="radio" class="custom-radio" name="opt2" id="idOui"> Oui  </td>
+
+                   <td><input type="radio" class="custom-radio" name="opt3" id="idNon"> Non  </td>
+
+                </tr>
+
+				<tr>  <!--Champ de saisie-->
+
+                    <td>Allergies Alimentaires Eventuelles</td>
+
+                    <td><input type="text" name="TAllergies" id="idAllergies"></td>
+
+                </tr>
+
+				<tr>  <!--Champ de saisie-->
+
+                    <td>Musique Favorite</td>
+
+                    <td><input type="text" name="TMusique" id="idMusique"></td>
+
+                </tr>
+
+				<tr>  <!--Champ de saisie-->
+
+                    <td>Plat/Boisson Apportes</td>
+
+                    <td><input type="text" name="TPlat/Boisson" id="idPlat/Boisson"></td>
+
+                </tr>
+
+				<tr>  <!--Champ de saisie-->
+
+                    <td>Commentaires</td>
+
+                    <td><input type="text" name="TCommentaires" id="idCommentaires"></td>
+
+                </tr>
+
+				</tbody>
+
+			</table>
+
+ 			<!--Boutons de contrôle-->
+
+			<input type="submit" class="btn-expand btn-primary" value="Valider">
+
+		</form>
+
+
+
+        
+
+	</body>
+
+</html>
+
+
+

@@ -1,0 +1,97 @@
+couleur {
+	height: 100px;
+	width: 100px;
+	border: 1pt solid black;
+	margin: 0.1em;
+}
+
+html {
+	font-family: sans-serif;
+}
+
+input,
+label {
+	margin: .4rem 0;
+}
+
+img {
+	height: 175px;
+	width: 315px;
+}
+
+head {
+	background-color: #FF1493;
+	padding: 20px;
+}
+
+body {
+	font-family: "trebuchet ms", sans-serif;
+	font-size: 90%;
+	background-color: #FFB6C1;
+}
+
+form {
+	background-color: #FAFAFA;
+	padding: 10px;
+
+}
+
+fieldset {
+	padding: 0 500px 500px 500px;
+	margin-bottom: 10px;
+	border: 1px solid #DF3F3F;
+}
+
+legend {
+	color: #DF3F3F;
+	font-weight: bold
+}
+
+label {
+	margin-top: 10px;
+	display: block;
+}
+
+label.inline {
+	display: inline;
+	margin-right: 50px;
+}
+
+input,
+textarea,
+select,
+option {
+	background-color: #FFF3F3;
+}
+
+input,
+textarea,
+select {
+	padding: 10px;
+	border: 1px solid #F5C5C5;
+	border-radius: 10px;
+	width: 250px;
+	box-shadow: 1px 1px 2px #C0C0C0 inset;
+}
+
+select {
+	margin-top: 10px;
+}
+
+input[type=radio] {
+	background-color: transparent;
+	border: none;
+	width: 5px;
+}
+
+input[type=submit],
+input[type=reset] {
+	width: 100px;
+	margin-left: 5px;
+	box-shadow: 1px 1px 1px #D83F3D;
+	cursor: pointer;
+}
+
+h1 {
+	width: 1000px;
+}
