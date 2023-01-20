@@ -1,4 +1,4 @@
-# Highschool-Small-Projects
+# Highschool-Small-Project
 
 ## Description
 
