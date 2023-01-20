@@ -17,19 +17,19 @@ function fonctionClicImage(){
 	image=document.querySelector("img");
 		switch (true){
 		case (i==0) :			
-			image.setAttribute("src","img/hb0.jpg");
+			image.setAttribute("src","hb0.jpg");
 			i=1;
 			break;
 		case (i==1) :
-			image.setAttribute("src","img/hb1.jpg");
+			image.setAttribute("src","hb1.jpg");
 			i=2;
 			break;			
 		case (i==2) :
-			image.setAttribute("src","img/hb2.jpg");
+			image.setAttribute("src","hb2.jpg");
 			i=3;
 			break;		
 		default :
-			image.setAttribute("src","img/pearl.png");
+			image.setAttribute("src","pearl.png");
 			i=0;
 		}
 	}
